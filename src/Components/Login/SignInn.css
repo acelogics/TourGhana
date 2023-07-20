@@ -1,0 +1,54 @@
+#header {
+  margin-bottom: 20em;
+  margin-top: 5em;
+}
+
+.width {
+  width: 18rem;
+}
+
+.cta span {
+  position: relative;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #ffffff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+#fontWeight {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.colorGrey {
+  background-color: rgb(13, 123, 219);
+}
+
+#hoverBtn {
+  background-color: rgb(238, 195, 24);
+}
+
+#hoverBtn:hover {
+  background-color: rgb(249, 219, 100);
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen {
+}

@@ -1,0 +1,13 @@
+{
+  "bookings": [
+    {
+      "id": 1,
+      "name": "Patrick",
+      "email": "me@gmail.com",
+      "date": "12/03/15",
+      "phoneNumber": "0245071505",
+      "persons": "5",
+      "location": "Boti Falls"
+    }
+  ]
+}

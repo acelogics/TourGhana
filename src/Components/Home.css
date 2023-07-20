@@ -1,0 +1,47 @@
+/* .header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/tools/tour.wallpaper.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} */
+
+#t-1 {
+  font-size: 2em;
+}
+
+#t-2 {
+  font-size: 3em;
+}
+
+#t-3 {
+  font-size: 1em;
+}
+
+.size {
+  width: 5em;
+}
+
+#footer {
+  padding: 30px 0 10px 0;
+  background-color: rgba(1, 13, 28, 0.947);
+  color: white;
+  text-align: center;
+}
+
+#booked {
+  min-height: 60vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding-bottom: 8em;
+}
+
+.margin-top {
+  margin-top: 7em;
+}
