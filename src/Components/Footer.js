@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className='col-md-4'>
                         <h4>About-Us</h4>
                         <p>
-                            Introducing Travel Assistance, the unrivaled champion of travel and tour websites. With our cutting-edge technology, unbeatable expertise, and unmatched dedication, we redefine the way you experience the world.</p>
+                            Introducing Tour Ghana, the unrivaled champion of travel and tour websites. With our cutting-edge technology, unbeatable expertise, and unmatched dedication, we redefine the way you experience the world.</p>
                     </div>
 
                     <div className='col-md-4'>

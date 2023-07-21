@@ -99,7 +99,7 @@ const Contactus = () => {
                             <div className="col-sm text-center mt-5 ">
                                 <div id="t-1" className='mt-5 fw-bold'>Find Us on Google Maps</div>
                                 <p id="t-3" className='mb-5'>Follow the simple directions below to reach us and begin your extraordinary travel experience.</p>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.6858144043914!2d-0.23802070543364806!3d5.6048918522728925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99764996816b%3A0x8486a2454905be11!2sTesano%2C%20Accra!5e0!3m2!1sen!2sgh!4v1686191008126!5m2!1sen!2sgh" style={styles} title="travel assistance" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.6858144043914!2d-0.23802070543364806!3d5.6048918522728925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99764996816b%3A0x8486a2454905be11!2sTesano%2C%20Accra!5e0!3m2!1sen!2sgh!4v1686191008126!5m2!1sen!2sgh" style={styles} title="tour-ghana" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
