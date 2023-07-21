@@ -1,6 +1,6 @@
 import React from 'react'
 import './dashboard.css'
-import { NavLink, Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
 const Dashboardd = () => {

@@ -1,19 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { GoLocation } from 'react-icons/go'
 import data from './data'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import './tour.css'
-import Dashboard from './Dashboard'
 
 const SingleProduct = () => {
     const { id } = useParams();
-    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const navigate = useNavigate();
 
-    const find = data.find(item => item.name == id)
+    const find = data.find(item => item.name === id)
 
-    const [inputValue, setInputValue] = useState(find.name);
+    const [inputValue] = useState(find.name);
 
 
     const size = {
@@ -44,7 +43,7 @@ const SingleProduct = () => {
                 <div className='d-md-flex row align-items-center'>
 
                     <div className='my-5 col-md-8'>
-                        <img src={find.image} className="img-fluid" style={size}></img>
+                        <img alt="tour-site" src={find.image} className="img-fluid" style={size}></img>
                     </div>
 
                     <div className='col-md-4'>

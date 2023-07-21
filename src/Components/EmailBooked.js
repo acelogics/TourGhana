@@ -2,9 +2,7 @@ import React from 'react'
 import './Home.css'
 
 const EmailBooked = () => {
-    const width = {
-        width: `38rem`
-    }
+
     return (
         <>
 

@@ -1,4 +1,4 @@
-import React, { startTransition, useState, useTransition } from 'react'
+import React, { startTransition, useState } from 'react'
 import { GoLocation } from 'react-icons/go'
 import data from './data'
 import './tour.css'
@@ -19,7 +19,7 @@ const Tour = () => {
         <>
 
             <div className='container-fluid m-o p-0'>
-                <img src="./tools/toursites/bgS.webp" id="imgs"></img>
+                <img alt="toursitesimg" src="./tools/toursites/bgS.webp" id="imgs"></img>
             </div>
 
             <div className="container mb-5">

@@ -1,10 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Nav from "./Components/Nav";
-import Carts from "./Components/Carts";
-import { CartProvider } from "./CartContext";
 // import Header from "./Components/Header";
 import Home from "./Components/Home";
-import Homed from "./Components/Homed";
 import Footer from "./Components/Footer";
 import Contactus from "./Components/Contactus";
 import About from "./Components/About";
@@ -22,29 +19,25 @@ import Summary from "./Components/Login/Summary";
 function App() {
   return (
     <div className="App">
-      <CartProvider>
 
-        <Nav></Nav>
+      <Nav></Nav>
 
-        <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
-          <Route path="hot" element={<Homed></Homed>}></Route>
-          <Route path="cart" element={<Carts></Carts>}></Route>
-          <Route path="nonfa" element={<Homed></Homed>}></Route>
-          <Route path="/about" element={<About></About>}></Route>
-          <Route path="contactus" element={<Contactus></Contactus>}></Route>
-          <Route path="tours" element={<Tour></Tour>}></Route>
-          <Route path="/bookings/:id" element={<SingleProduct></SingleProduct>}></Route>
-          <Route path="booked" element={<EmailBooked></EmailBooked>}></Route>
-          <Route path="signin" element={<SignInn></SignInn>}></Route>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="contactus" element={<Contactus></Contactus>}></Route>
+        <Route path="tours" element={<Tour></Tour>}></Route>
+        <Route path="/bookings/:id" element={<SingleProduct></SingleProduct>}></Route>
+        <Route path="booked" element={<EmailBooked></EmailBooked>}></Route>
+        <Route path="signin" element={<SignInn></SignInn>}></Route>
 
-          <Route path="signup" element={<SignUp></SignUp>}></Route>
-          <Route path="dashboard" element={<Dashboardd></Dashboardd>}>
-            <Route path="summary" element={<Summary></Summary>}></Route>
+        <Route path="signup" element={<SignUp></SignUp>}></Route>
+        <Route path="dashboard" element={<Dashboardd></Dashboardd>}>
+          <Route path="summary" element={<Summary></Summary>}></Route>
 
-            <Route path="admin" element={<Dashboard></Dashboard>}></Route>
+          <Route path="admin" element={<Dashboard></Dashboard>}></Route>
 
-          </Route>
+        </Route>
 
 
 
@@ -55,9 +48,8 @@ function App() {
 
 
 
-        </Routes>
+      </Routes>
 
-      </CartProvider>
       <Footer></Footer>
 
     </div>

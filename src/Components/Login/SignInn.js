@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import app from './Firebase'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth"
-import { Link, useNavigate } from 'react-router-dom'
-import { FcGoogle } from 'react-icons/fc';
+import { useNavigate } from 'react-router-dom'
 import "./SignInn.css"
 
 const SignInn = (error) => {
@@ -37,10 +36,7 @@ const SignInn = (error) => {
 
 
     const image = "https://img.freepik.com/free-vector/forgot-password-concept-illustration_114360-1123.jpg?w=826&t=st=1688021961~exp=1688022561~hmac=53df772053e44c0b5f81d55375d48e65998ac3162a9dfd75b429ba98678009ad"
-    const width = {
-        width: "50%",
 
-    }
 
     return (
         <>
