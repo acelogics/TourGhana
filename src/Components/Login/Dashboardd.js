@@ -20,7 +20,7 @@ const Dashboardd = () => {
 
                         <NavLink to="summary" className=' text-decoration-none text-light active'>Summary</NavLink>
                         <div className='my-3'>  <NavLink to="admin" className='text-decoration-none text-light'>Bookings</NavLink><br /></div>
-                        <Link to="#" className='text-decoration-none text-light'>Users</Link><br />
+                        {/* <Link to="#" className='text-decoration-none text-light'>Users</Link><br /> */}
                         <button className="btn btn-primary mt-2 mt-5" onClick={() => navigate("/")}>Sign Out</button>
 
 
