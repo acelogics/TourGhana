@@ -1,5 +1,6 @@
 import React from 'react'
 import './offer.css'
+import { kakum2, mauso, boti, bss } from './assets/toursites'
 
 const OfferHome = () => {
     return (
@@ -15,7 +16,7 @@ const OfferHome = () => {
                         <div className="row text-center">
                             <div className="col-md-4 gy-sm-3" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="card">
-                                    <img src="./tools/toursites/kakum2.jpg" className="card-img-top img-fluid" alt="product"></img>
+                                    <img src={kakum2} className="card-img-top img-fluid" alt="product"></img>
                                     <div className="cards-body">
                                         <h5 className="card-title">Kakum National Park</h5>
                                         {/* <p className="card-text fw-bold">GHC 2.00</p> */}
@@ -25,7 +26,7 @@ const OfferHome = () => {
                             </div>
                             <div className="col-md-4 gy-sm-3" data-aos="fade-up" data-aos-duration="2000">
                                 <div className="card ">
-                                    <img src="./tools/toursites/mauso.jpg" className="card-img-top img-fluid " alt="product"></img>
+                                    <img src={mauso} className="card-img-top img-fluid " alt="product"></img>
                                     <div className="cards-body">
                                         <h5 className="card-title">Kwame Nkrumah Mausoleoum</h5>
                                         {/* <p className="card-text fw-bold">GHC 15.00</p> */}
@@ -34,7 +35,7 @@ const OfferHome = () => {
                             </div>
                             <div className="col-md-4  gy-sm-3" data-aos="fade-up" data-aos-duration="3000">
                                 <div className="card">
-                                    <img src="./tools/toursites/boti.jpg" className="card-img-top img-fluid" alt="product"></img>
+                                    <img src={boti} className="card-img-top img-fluid" alt="product"></img>
                                     <div className="cards-body">
                                         <h5 className="card-title">Boti Falls</h5>
                                         {/* <p className="card-text fw-bold">GHC 5.00</p> */}

@@ -3,14 +3,10 @@ import aburi from './aburi.jpg';
 import accraZoo from './accraZoo.jpg';
 import adomi from './adomi.jpg';
 import afadjato from './afadjato.png';
-import akosombo from './akosombo.jpg';
 import anokye from './anokye.jpg';
 import artscenter from './artscenter.jpg';
-import bg from './bg.webp';
-import bgexplore from './bgexplore.webp';
 import bgS from './bgS.webp';
 import bojo from './bojo.jpg';
-import bosomtwi from './bosomtwi.jpg'
 import bosomtwi1 from './bosomtwi1.jpg'
 import boti from './boti.jpg';
 import boti2 from './boti2.jpg';
@@ -33,16 +29,13 @@ import lighthouse from './lighthouse.jpg';
 import manhyia from './manhyia.jpg';
 import mauso from './mauso.jpg';
 import mausoleum from './mausoleum.jpg';
-import mole from './mole.png';
 import moles from './moles.jpg';
 import monkey from './monkey.jpg';
 import Nationaltheater from './Nationaltheater.webp';
 import natmauso from './natmauso.jpg';
-import natmausoleum from './natmausoleum.webp';
 import nzulezuEdit from './nzulezuEdit.jpg';
 import osuCastle from './osuCastle.jpg';
 import paga from './paga.jpg';
-import pagaW from './pagaW.webp';
 import shai from './shai.jpg';
 import slaveRiver from './slaveRiver.jpg';
 import wlifalls from './wlifalls.jpg';
@@ -52,14 +45,10 @@ export {
     accraZoo,
     adomi,
     afadjato,
-    akosombo,
     anokye,
     artscenter,
-    bg,
-    bgexplore,
     bgS,
     bojo,
-    bosomtwi,
     bosomtwi1,
     boti,
     boti2,
@@ -82,16 +71,13 @@ export {
     manhyia,
     mauso,
     mausoleum,
-    mole,
     moles,
     monkey,
     Nationaltheater,
     natmauso,
-    natmausoleum,
     nzulezuEdit,
     osuCastle,
     paga,
-    pagaW,
     shai,
     slaveRiver,
     wlifalls

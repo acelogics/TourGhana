@@ -1,4 +1,4 @@
-import { aburi, accraZoo, adomi, afadjato, akosombo, anokye, artscenter, bg, bgexplore, bgS, bojo, bosomtwi, bosomtwi1, boti, boti2, bss, bss2, bss41, carpenter, dam, elmina, island, kakum, kakum2, kakum3, kp, kp2, kumasi, KwameNkrumahMausoleum, larabanga, legonGardens, lighthouse, manhyia, mauso, mausoleum, mole, moles, monkey, Nationaltheater, natmauso, natmausoleum, naulezuEdit, osuCastle, paga, pagaW, shai, slaveRiver, wlifalls } from '../assets/toursites/index.js';
+import { aburi, accraZoo, adomi, afadjato, akosombo, anokye, artscenter, bg, bgexplore, bgS, bojo, bosomtwi, bosomtwi1, boti, boti2, bss, bss2, bss41, carpenter, dam, elmina, island, kakum, kakum2, kakum3, kp, kp2, kumasi, KwameNkrumahMausoleum, larabanga, legonGardens, lighthouse, manhyia, mauso, mausoleum, moles, monkey, Nationaltheater, natmauso, natmausoleum, nzulezuEdit, osuCastle, paga, pagaW, shai, slaveRiver, wlifalls } from '../assets/toursites/index.js';
 import { ABT, abt1, abt2, bk, blackStar, ex, forgotcopy, forgotcopyy, forgotlong, Ghana, gif2, map, tour, wallpaper } from '../assets/images/index.js';
 
 const data = [
@@ -49,7 +49,7 @@ const data = [
         location: 'CapeCoast',
         region: 'Central Region',
         price: '75',
-        image: '/tools/toursites/kp.jpg',
+        image: kp2,
 
     },
     {
@@ -59,7 +59,7 @@ const data = [
         location: 'Boti',
         region: 'Eastern Region',
         price: '120',
-        image: '/tools/toursites/boti2.jpg',
+        image: boti2,
     },
     {
         id: '8',
@@ -68,7 +68,7 @@ const data = [
         location: 'Damongo',
         region: 'Northern Region',
         price: '50',
-        image: '/tools/toursites/moles.jpg',
+        image: moles,
     },
     {
         id: '9',
@@ -77,7 +77,7 @@ const data = [
         location: 'Beyin',
         region: 'Western Region',
         price: '100',
-        image: '/tools/toursites/nzulezuEdit.jpg',
+        image: nzulezuEdit,
     },
     {
         id: '12',
@@ -86,7 +86,7 @@ const data = [
         location: 'Aburi',
         region: 'Eastern Region',
         price: '100',
-        image: '/tools/toursites/aburi.jpg',
+        image: aburi,
     },
     {
         id: '13',
@@ -95,7 +95,7 @@ const data = [
         location: 'Shai Hills',
         region: 'Eastern Region',
         price: '100',
-        image: '/tools/toursites/shai.jpg',
+        image: shai,
     },
     {
         id: '14',
@@ -104,7 +104,7 @@ const data = [
         location: 'Teshie',
         region: 'Greater Region',
         price: '100',
-        image: '/tools/toursites/carpenter.jpg',
+        image: carpenter,
     }, {
         id: '15',
         name: 'Lake Bosomtwi',
@@ -112,7 +112,7 @@ const data = [
         location: 'Kumasi',
         region: 'Ashanti Region',
         price: '100',
-        image: '/tools/toursites/bosomtwi1.jpg',
+        image: bosomtwi1,
     }, {
         id: '16',
         name: 'Kumasi Zoo',
@@ -120,7 +120,7 @@ const data = [
         location: 'Kumasi',
         region: 'Ashanti Region',
         price: '100',
-        image: '/tools/toursites/kumasi.jpg',
+        image: kumasi,
     }, {
         id: '17',
         name: 'Mount Afadjato',
@@ -128,7 +128,7 @@ const data = [
         location: 'Hohoe',
         region: 'Volta Region',
         price: '100',
-        image: '/tools/toursites/afadjato.png',
+        image: afadjato,
     }, {
         id: '18',
         name: 'Adomi Bridge',
@@ -136,7 +136,7 @@ const data = [
         location: 'Atimpoku',
         region: 'Eastern Region',
         price: '100',
-        image: '/tools/toursites/adomi.jpg',
+        image: adomi,
     }, {
         id: '19',
         name: 'Akosombo Dam',
@@ -144,7 +144,7 @@ const data = [
         location: 'Akosombo',
         region: 'Eastern Region',
         price: '100',
-        image: '/tools/toursites/dam.jpg',
+        image: dam,
     }, {
         id: '20',
         name: 'Manhyia Palace Museum',
@@ -152,7 +152,7 @@ const data = [
         location: 'Kumasi',
         region: 'Ashanti Region',
         price: '100',
-        image: '/tools/toursites/manhyia.jpg',
+        image: manhyia,
     }, {
         id: '21',
         name: 'Okomfo Anokye Sword Site',
@@ -160,7 +160,7 @@ const data = [
         location: 'Kumasi',
         region: 'Ashanti Region',
         price: '100',
-        image: '/tools/toursites/anokye.jpg',
+        image: anokye,
     }, {
         id: '22',
         name: 'National Museum of Ghana',
@@ -168,7 +168,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Region',
         price: '100',
-        image: '/tools/toursites/natmauso.jpg',
+        image: natmauso,
     },
     {
         id: '11',
@@ -177,7 +177,7 @@ const data = [
         location: 'Hohoe',
         region: 'Volta Region',
         price: '100',
-        image: '/tools/toursites/wlifalls.jpg',
+        image: wlifalls,
     },
     {
         id: '6',
@@ -186,7 +186,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '75',
-        image: '/tools/toursites/lighthouse.jpg',
+        image: lighthouse,
     },
     {
         id: '7',
@@ -195,7 +195,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '250',
-        image: '/tools/toursites/Nationaltheater.webp',
+        image: Nationaltheater,
     },
     {
         id: '10',
@@ -204,7 +204,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/natmauso.jpg',
+        image: natmauso,
     },
     {
         id: '32',
@@ -213,7 +213,7 @@ const data = [
         location: 'Kumasi',
         region: 'Ashanti Region',
         price: '100',
-        image: '/tools/toursites/manhyia.jpg',
+        image: manhyia,
     },
 
     {
@@ -223,7 +223,7 @@ const data = [
         location: 'Osu',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/osuCastle.jpg',
+        image: osuCastle,
     }, {
         id: '24',
         name: 'Legon Botanical Gardens',
@@ -231,7 +231,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/legonGardens.jpg',
+        image: legonGardens,
     }, {
         id: '25',
         name: 'Bojo Beach',
@@ -239,7 +239,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/bojo.jpg',
+        image: bojo,
     }, {
         id: '26',
         name: 'Accra Zoo',
@@ -247,7 +247,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/accraZoo.jpg',
+        image: accraZoo,
     }, {
         id: '27',
         name: 'Assin Manso Slave River',
@@ -255,7 +255,7 @@ const data = [
         location: '',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/toursites/slaveRiver.jpg',
+        image: slaveRiver,
     }, {
         id: '28',
         name: 'Tafe Atome Monkey Sanctuary',
@@ -263,7 +263,7 @@ const data = [
         location: 'Hohoe',
         region: 'Volta Accra',
         price: '100',
-        image: '/tools/toursites/monkey.jpg',
+        image: monkey,
     }, {
         id: '29',
         name: 'Bobowasi Island',
@@ -271,7 +271,7 @@ const data = [
         location: 'Axim',
         region: 'Western Accra',
         price: '100',
-        image: '/tools/toursites/island.jpg',
+        image: island,
     },
     {
         id: '30',
@@ -280,7 +280,7 @@ const data = [
         location: 'Paga',
         region: 'Northern Accra',
         price: '100',
-        image: '/tools/toursites/paga.jpg',
+        image: paga,
     },
 
 

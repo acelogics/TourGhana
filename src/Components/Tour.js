@@ -3,6 +3,7 @@ import { GoLocation } from 'react-icons/go'
 import data from './data'
 import './tour.css'
 import { Link } from 'react-router-dom'
+import { bgS } from '../assets/toursites'
 
 
 
@@ -19,7 +20,7 @@ const Tour = () => {
         <>
 
             <div className='container-fluid m-o p-0'>
-                <img alt="toursitesimg" src="./tools/toursites/bgS.webp" id="imgs"></img>
+                <img alt="toursitesimg" src={bgS} id="imgs"></img>
             </div>
 
             <div className="container mb-5">

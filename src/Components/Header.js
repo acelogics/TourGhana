@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { wallpaper } from '../assets/images'
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
                 minHeight: `100vh`,
                 backgroundSize: `cover`,
                 backgroundPosition: `center`,
-                backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url("./tools/wallpaper.jpg")`,
+                backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url(${wallpaper})`,
                 display: `flex`,
                 justifyContent: `center`,
                 alignItems: `center`,
