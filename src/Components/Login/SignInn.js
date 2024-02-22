@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import app from './Firebase'
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth"
 import { useNavigate } from 'react-router-dom'
 import "./SignInn.css"
 
@@ -11,27 +9,14 @@ const SignInn = (error) => {
     const [email, setemail] = useState("")
     const [password, setpassword] = useState("")
 
-    const auth = getAuth(app);
 
-    const signIn = (error) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed in 
-                const user = userCredential.user;
-                console.log(user)
-                alert("User has successfully signed In")
-                navigate("/dashboard/summary")
+    const signIn = () => {
 
+        // Signed in 
+        console.log("sign in")
+        alert("User has successfully signed In")
+        navigate("/dashboard/summary")
 
-
-            })
-            .catch((error) => {
-                const errorCode = error.code;
-                console.log(errorCode)
-                alert("Invalid Details")
-
-
-            });
     }
 
 
