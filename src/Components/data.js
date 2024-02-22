@@ -1,3 +1,6 @@
+import { aburi, accraZoo, adomi, afadjato, akosombo, anokye, artscenter, bg, bgexplore, bgS, bojo, bosomtwi, bosomtwi1, boti, boti2, bss, bss2, bss41, carpenter, dam, elmina, island, kakum, kakum2, kakum3, kp, kp2, kumasi, KwameNkrumahMausoleum, larabanga, legonGardens, lighthouse, manhyia, mauso, mausoleum, mole, moles, monkey, Nationaltheater, natmauso, natmausoleum, naulezuEdit, osuCastle, paga, pagaW, shai, slaveRiver, wlifalls } from '../assets/toursites/index.js';
+import { ABT, abt1, abt2, bk, blackStar, ex, forgotcopy, forgotcopyy, forgotlong, Ghana, gif2, map, tour, wallpaper } from '../assets/images/index.js';
+
 const data = [
     {
         id: '2',
@@ -6,7 +9,7 @@ const data = [
         location: 'Elmina',
         region: 'Central Region',
         price: '50',
-        image: '/tools/wallpaper.jpg',
+        image: elmina,
 
     },
     {
@@ -16,7 +19,7 @@ const data = [
         location: 'CapeCoast',
         region: 'Central Region',
         price: 75,
-        image: '/tools/toursites/elmina.jpg',
+        image: wallpaper,
 
     },
 
@@ -27,7 +30,7 @@ const data = [
         location: 'Larabanga',
         region: 'Northern Region',
         price: '350',
-        image: '/tools/toursites/larabanga.jpg',
+        image: larabanga,
     },
 
     {
@@ -37,7 +40,7 @@ const data = [
         location: 'Accra',
         region: 'Greater Accra',
         price: '100',
-        image: '/tools/tour.webp',
+        image: tour,
     },
     {
         id: '31',
