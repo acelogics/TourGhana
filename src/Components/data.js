@@ -1,5 +1,5 @@
 import { aburi, accraZoo, adomi, afadjato, akosombo, anokye, artscenter, bg, bgexplore, bgS, bojo, bosomtwi, bosomtwi1, boti, boti2, bss, bss2, bss41, carpenter, dam, elmina, island, kakum, kakum2, kakum3, kp, kp2, kumasi, KwameNkrumahMausoleum, larabanga, legonGardens, lighthouse, manhyia, mauso, mausoleum, moles, monkey, Nationaltheater, natmauso, natmausoleum, nzulezuEdit, osuCastle, paga, pagaW, shai, slaveRiver, wlifalls } from '../assets/toursites/index.js';
-import { ABT, abt1, abt2, bk, blackStar, ex, forgotcopy, forgotcopyy, forgotlong, Ghana, gif2, map, tour, wallpaper } from '../assets/images/index.js';
+import { ABT, bk, blackStar, ex, forgotcopy, forgotcopyy, forgotlong, Ghana, gif2, map, tour, wallpaper } from '../assets/images/index.js';
 
 const data = [
     {

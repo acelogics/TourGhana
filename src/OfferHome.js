@@ -1,6 +1,6 @@
 import React from 'react'
 import './offer.css'
-import { kakum2, mauso, boti, bss } from './assets/toursites'
+import { kakum2, mauso, boti } from './assets/toursites'
 
 const OfferHome = () => {
     return (

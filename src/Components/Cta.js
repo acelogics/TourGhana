@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import { BsFillBagFill } from 'react-icons/bs'
 import { FaGlobeAmericas, FaRegHandshake } from 'react-icons/fa'
-
+import { ABT } from '../assets/images'
 
 
 const Cta = () => {
@@ -12,7 +12,7 @@ const Cta = () => {
                 minHeight: `70vh`,
                 backgroundSize: `cover`,
                 backgroundPosition: `center`,
-                backgroundImage: `linear-gradient(rgba(1, 26, 54, 0.947), rgba(4, 9, 30, 0.7)), url("./tools/abt.jpg")`,
+                backgroundImage: `linear-gradient(rgba(1, 26, 54, 0.947), rgba(4, 9, 30, 0.7)), url(${ABT})`,
                 display: `flex`,
                 justifyContent: `center`,
                 alignItems: `center`,

@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import './contact.css'
+import { map } from '../assets/images';
 
 
 
@@ -41,7 +42,7 @@ const Contactus = () => {
                     minHeight: `50vh`,
                     backgroundSize: `cover`,
                     backgroundPosition: `center`,
-                    backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url("./tools/map.jpg")`,
+                    backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url(${map})`,
                     display: `flex`,
                     justifyContent: `center`,
                     alignItems: `center`,

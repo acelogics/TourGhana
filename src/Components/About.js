@@ -1,4 +1,5 @@
 import React from 'react'
+import { abt1 } from '../assets/images'
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                 minHeight: `50vh`,
                 backgroundSize: `cover`,
                 backgroundPosition: `center`,
-                backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url("./tools/abt1.jpg")`,
+                backgroundImage: `linear-gradient(rgba(84, 107, 199, 0.7), rgba(4, 9, 30, 0.7)), url(${abt1})`,
                 display: `flex`,
                 justifyContent: `center`,
                 alignItems: `center`,
